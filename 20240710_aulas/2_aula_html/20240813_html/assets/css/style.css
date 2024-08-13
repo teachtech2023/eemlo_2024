@@ -1,0 +1,42 @@
+h1{
+    border:solid 1px orange;
+}
+h2{
+    border:1px solid orange;
+}
+h3{
+    border:1px solid orange;
+}
+p{
+    border:1px solid orange;
+}
+div{
+    background-color:  rgb(0, 255, 238);
+}
+section{
+    background-color: greenyellow;
+}
+img{
+    border:1px solid blue;
+}
+a{
+    border:1px solid blue;
+}
+button{
+    border:1px solid blue;
+}
+label{
+    border:1px solid blue;
+}
+#primeiro_atributo{
+    border:1px solid violet;
+}
+#segundo_atributo{
+    border:1px solid yellowgreen
+}
+span{
+    background-color:red;
+}
+.section_title{
+    color:darkgreen;
+}
