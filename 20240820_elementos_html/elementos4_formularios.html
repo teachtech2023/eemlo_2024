@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Formulários</title>
+
+
+</head>
+
+<body>
+    <h1>Formulários</h1>
+    <h2>Formulário login</h2>
+
+    <!-- EXEMPLO FORMULARIO DE LOGIN -->
+    <form id="login" name="formulario_login" action="login.html" method="post">
+        Usuário: <input type="text" name="usuario" id="usuario" placeholder="Digite o usuário" autocomplete="on">
+        Senha: <input type="password" name="senha" id="senha" placeholder="Digite a senha" autocomplete="">
+        <input type="submit" value="Enviar">
+    </form>
+<hr>
+<h2>Formulário de cadastro</h2>
+    <!-- EXEMPLO FORMULARIO DE CADASTRO -->
+    <form>
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            Data de nascimento: <input type="date" name="data" id="data" placeholder="Digite a data de nascimento"  autocomplete="off"></input>
+            <input type="radio" name="sexo" id="data" value="M">Masculino
+            <input type="radio" name="sexo" id="data" value="F">Feminino
+        </fieldset>
+        <fieldset>
+            <label for="produtos">Escolha seu produto na lista:</label>
+            <input list="produtos" list="produto" name="produto" placeholder="produtos">
+            <datalist id="produtos" name="produtos">
+                <option value="TV">
+                <option value="MODEM">
+                <option value="TELEFONE">
+                <option value="WIFI MESH">
+            </datalist>
+            <p>Selecione a marca do produto:
+                <select name="marcas">
+                     <option value="ap"> Apple </option>
+                     <option value="sam"> Samsumg </option>
+                     <option value="tp"> TP-Link </option>
+                </select>
+            <input type="submit" value="Enviar">
+        </fieldset>
+        <fieldset>
+            <legend>Quero:</legend>
+            <input type="checkbox" name="acao" value="con">Contratar plano
+            <input type="checkbox" name="acao" value="can">Cancelar plano
+        </fieldset> 
+        <fieldset>            
+            <textarea name="observacao" id="obs" cols="30" rows="10" placeholder="Dê sua opinião"></textarea>
+        </fieldset>          
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>

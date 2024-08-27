@@ -1,0 +1,44 @@
+/* seletores de elementos */
+
+p{background-color: orangered; border: 1px solid black}
+
+h4{background-color: yellowgreen; border: 1px solid black}
+
+
+/* seletores ID */
+
+#p1 {background-color: blueviolet;font-weight: bold; font-style: italic;}
+
+/* seletores de classe */
+.sclass {background-color: violet}
+
+
+/* seletores de atributos gerais */
+[lang^="en-us"] {background-color: blue; color: white}
+[lang^="pt-br"] {background-color: green; float: right}
+ 
+
+
+/* Seletorores de  pseudo-classe  - combinação do elemento com a pseudo-classe*/
+/* estiliza uma parte específica  */
+li:first-of-type{color: blue}
+/* estilizando o terceiro elemento */
+li:nth-child(3){color: violet}
+/* estilizando elemento ao clicar - mudança de estado*/
+li:hover{background-color: orange}
+
+/* as primeiras  letras em tamanho maior */
+/* /pseudo-elemento */
+
+p::first-letter{font-size: xx-large}
+
+/* universal */
+
+/* *{
+    margin: 0px;
+} */
+
+* {
+    padding: 10px
+}
+

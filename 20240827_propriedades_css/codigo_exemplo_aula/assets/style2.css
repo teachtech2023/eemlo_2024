@@ -1,0 +1,32 @@
+/* combinacao de seletores - serve para nao repetir*/
+
+/* estilizando titulo h1 e lista ordenada  -duas regras distintas p h e ol*/
+h1, ol {
+    background-color: yellowgreen;
+}
+
+/* Elemento associados, uso com classes e ids */
+li.rodape{ color: red}
+li.menu-item {font-weight: bold; color: cadetblue; font-size: 25px}
+
+/* elemento associado a B descendente de A  */
+nav li{font-size:xx-small;}
+
+main p {color:green}
+
+/*descendentes diretos - filhos*/
+ol > li {border-top:1px solid;}
+
+
+/*regras menos utilizadas*/
+/* irmao */
+li.rodape + li{
+    background-color: pink;
+}
+
+ /*proximos irmaos*/
+li.rodape ~ li{
+    font-size:x-large
+}
+
+/* h3{color:red} */
