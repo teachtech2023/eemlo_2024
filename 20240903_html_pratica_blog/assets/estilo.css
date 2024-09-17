@@ -1,0 +1,235 @@
+
+/*Limpar formatações padrão*/
+ * {
+	margin: 0;
+	padding: 0;
+}
+/* formatacao de elementos estruturais */
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+} 
+header {
+    /* border-bottom: solid 1px red; */
+    height: 80px;
+    /* background: url("../images/logo.jpeg") no-repeat; */
+	  background-size: 100px 100px;
+    background-color: lightblue;
+    text-align: center;
+}
+main {
+    float:left;
+    width: 70%;
+    background-color: lightgoldenrodyellow;
+}
+aside {
+    float: left;
+    width: 30%;
+    background-color:white;
+    margin-top: 20px;
+  }
+footer{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}   
+
+/* menu */
+.area-menu {
+    float: right;
+    margin: 10px
+}
+.area-menu ul {
+    list-style-type: none;
+}
+.area-menu ul li {
+    display: inline-block;
+}
+.area-menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: orange;
+}
+.area-menu ul li a:hover {
+    background-color: black;
+    color: white    
+}
+#area-logo, #area-menu {
+	padding: 20px;
+    margin-top: 20px;
+}
+/**** Layout ****/
+ /* #area-cabecalho {
+	background-color: lightblue;
+	padding: 15px;
+	text-align: center;
+	 color: green; 
+ }  */
+
+.area-postagens{
+    padding: 10px 10px;
+    clear: both;
+	background-color: #e6e6e6;
+	
+}
+.postagens img{
+		display: block;
+		/* float: left; */
+		margin-right: 10px;
+		/* width: 100px */
+}
+.postagens h4 {
+    color: pin;
+    font-size: 60%;
+    margin-bottom: 10px
+	}
+.postagens h2 {
+	color: orangered;   
+    margin-bottom: 10px;	
+}
+.postagens {   
+	font-size: 80%;	
+	text-align: justify;
+	background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.postagens span:nth-child(3) {
+    background-color: lightskyblue;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 3px;
+}
+.postagens a{
+  text-decoration: none;
+}
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.pesquisa {
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.pesquisa h3 {
+    margin-bottom: 5px;
+}
+
+.categorias {
+    margin: 20px;
+}
+.categorias h3 {
+    margin-bottom: 10px;
+}
+.categorias ul {
+    list-style-type: none;
+}
+.categorias a {
+    text-decoration: none;
+}
+
+/* Formatacao geral */
+a:link, a:visited {
+	color: orange ;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	color: orange;
+	font-size: 2.5em;
+}
+h2 {
+	color: #f7b600;
+}
+h3 {
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+.branco{
+	color: white;
+}
+
+/* fontes google */
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
