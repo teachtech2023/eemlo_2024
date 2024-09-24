@@ -1,0 +1,21 @@
+/* prioridade */
+
+
+p{color: aliceblue;}
+p{color: blue;}
+p{color:blueviolet;}
+/* p{color: yellow !important ;} */
+
+/* elemento ou pseudo-elemento */
+/* classe, pseudo-classe ou atributo comum */
+/* identificador */
+/* atributo inline - prioridade 1 */
+
+/* elemento ou pseudo-elemento - prioridade 2 */
+#preferencia2 {background-color: aqua;}
+
+/* classe, pseudo-classe ou atributo comum - prioridade 3 */
+.classe{background-color: lightgreen}
+
+/* elemento ou pseudo-elemento - prioridade 4*/
+/* p{color:blueviolet;} */

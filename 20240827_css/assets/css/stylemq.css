@@ -1,0 +1,65 @@
+
+/* comportamento normal do desktop */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho{
+background-color: green;
+padding:20px;
+color: white;
+text-align: center;
+}
+
+.conteudo{
+    padding:20px;
+}
+
+
+/* breakpoints para resolucoes especificas */
+
+
+/* break de 600 */
+@media screen and (max-width:600px) {
+    
+    .cabecalho{
+        background:red;
+        height: 200px;
+        display: none;
+    }
+
+    .conteudo{
+        font-size:120%;
+    }
+}
+
+
+/* breakpoint 1024 */
+/* sobrreposicao */
+/* @media screen and (max-width:1024px) {
+    
+    .cabecalho{
+        background:blue;
+        height: 100px;
+    }
+} */
+
+/* evitando sobreposicao */
+@media screen  and (min-width:601px)and (max-width:1024px) {
+    
+    .cabecalho{
+        background:blue;
+        height: 100px;
+    }
+}
+
+/* evitando sobreposicao */
+@media screen  and (min-width:1025px)and (max-width:1200px) {
+    
+    .cabecalho{
+        background:orange;
+        height: 100px;
+    }
+}

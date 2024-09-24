@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+.destaque{
+    /* display: none;  */
+display: block;
+width: 100%;
+}
+
+div{
+
+    width: calc(33% - 16px);
+    background-color: lightgray;
+    vertical-align: top;
+display: inline-block;
+margin: 8px;
+border: 1px solid #777;
+box-sizing: border-box;
+border-radius: 10px;
+padding: 10px;
+}
+
+div p img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;;
+    }
