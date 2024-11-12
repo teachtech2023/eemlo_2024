@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgray;
+}
+
+header {
+    border-bottom: solid 1px lightgoldenrodyellow;
+    background-color: lightcyan;
+    height: 80px;
+    background: url("../images/logo.jpeg") no-repeat;
+    background-size: 100px 100px;
+}
+
+main {
+    float:left;
+    width: 70%;
+    background-color: mediumaquamarine;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    background-color:lightblue;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:lightblue;
+}
+
+h1 {
+    display: none
+}
+
+
+/* Componente Caixa Menu Principal */
+
+.caixa-menuprincipal {
+    float: right;
+    margin: 10px
+}
+
+.caixa-menuprincipal ul {
+    list-style-type: none;
+}
+
+.caixa-menuprincipal ul li {
+    display: inline-block;
+}
+
+.caixa-menuprincipal ul li  {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: lightblue;
+}
+
+/* Componente Caixa Post */
+.caixa-post {
+    padding: 10px 10px;
+    clear: both;
+}
+
+.caixa-post img {
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+.caixa-post h4 {
+    color: darkred;
+    font-size: 60%;
+    margin-bottom: 10px
+}
+
+.caixa-post p.texto {
+    font-size: 80%;
+}
+
+.caixa-post span:nth-child(3) {
+    background-color: lightskyblue;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 3px
+}
+
+/* Componente Caixa Pesquisa */
+
+.caixa-pesquisa {
+    margin: 20px;
+    margin-bottom: 30px;
+
+}
+
+.caixa-pesquisa h3 {
+    margin-bottom: 10px;
+}
+
+/* Componente Caixa Categoria */
+
+.caixa-categoria {
+    margin: 20px;
+}
+
+.caixa-categoria h3 {
+    margin-bottom: 10px;
+}
+
+.caixa-categoria ul {
+    list-style-type: none;
+}
+
+.caixa-categoria a {
+    text-decoration: none;
+}
+
+

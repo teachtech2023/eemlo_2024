@@ -8,6 +8,7 @@ body {
 	font-size: 1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #e6e6e6;
+
 } 
 header {
     /* border-bottom: solid 1px red; */
@@ -157,9 +158,9 @@ footer{
 	display: block;
 }
 
-.dpostagens{
+/* .dpostagens{
 
-}
+} */
 
 a:link, a:visited {
 	color: orange ;
@@ -186,8 +187,6 @@ h3 {
 	background: #CCC;
 	padding: 5px;
 }
-
-
 
 .roboto-thin {
     font-family: "Roboto", sans-serif;
